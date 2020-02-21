@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Listado de Propietarios</h2>
+    <table class="table table-bordered">      
+        <thead>
+            <tr>
+                <th>N° Propietario</th> 
+                <th>Nombres Completos</th> 
+                <th>Identificación</th> 
+                <th>N° Apartamento</th> 
+                <th>Editar</th> 
+                <th>Eliminar</th> 
+            </tr>
+        </thead>
+        <tbody id="bodyTable"></tbody>        
+    </table>
+    
+    <template id="row">
+        <tr>
+            <td class="identifierOwners"></td>
+            <td class="nameOwners"></td>
+            <td class="documentOwners"></td>
+            <td class="apartmentOwners"></td>
+            <td class="edit">
+                <button type="button" class="action edit">Editar</button>
+            </td>
+            <td class="delete">
+                <button type="button" class="action delete">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+</div>

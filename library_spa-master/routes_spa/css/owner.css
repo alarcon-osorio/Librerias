@@ -1,0 +1,17 @@
+/*Menu*/
+
+.ed-menu{
+    background-color: teal;
+}
+
+.ed-menu a{
+    color: white;
+    transition: all .2s;
+}
+
+.ed-menu a:hover{
+    background-color: #eee;
+    color: #333;
+}
+
+/*End Menu*/

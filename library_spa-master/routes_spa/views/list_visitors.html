@@ -1,0 +1,36 @@
+<div class="container">
+    <h2>Listado de Visitantes</h2>
+    <table class="table table-bordered">        
+        <thead>
+            <tr>
+                <th>N° Visitante</th> 
+                <th>Nombres Completos</th> 
+                <th>Identificación</th> 
+                <th>N° Apartamento</th> 
+                <th>Autorizó</th> 
+                <th>Fecha</th> 
+                <th>Editar</th> 
+                <th>Eliminar</th> 
+            </tr>
+        </thead>
+
+        <tbody id="bodyTable">            
+        </tbody>         
+    </table>
+    <template id="row">
+        <tr>
+            <td class="identifierVisitors"></td>
+            <td class="nameVisitors"></td>
+            <td class="documentVisitors"></td>
+            <td class="apartmentVisitors"></td>
+            <td class="authorizeVisitors"></td>
+            <td class="dateVisitors"></td>
+            <td class="edit">
+                <button type="button" class="action edit">Editar</button>
+            </td>
+            <td class="delete">
+                <button type="button" class="action delete">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+</div>
